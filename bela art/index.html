@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store UI</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 fixed-top">
+  
+  <!-- Logo -->
+  <a class="navbar-brand" href="#">STORE</a>
+
+  <!-- BOTÓN HAMBURGUESA -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- CONTENIDO COLAPSABLE -->
+  <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+    
+    <!-- LINKS -->
+    <ul class="navbar-nav mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Descubrir</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Explorar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Noticias</a>
+      </li>
+    </ul>
+
+    <!-- BOTONES DERECHA -->
+    <div class="d-flex gap-2">
+      <button class="btn btn-outline-light btn-sm">Iniciar sesión</button>
+      <button class="btn btn-primary btn-sm">Descargar</button>
+    </div>
+
+  </div>
+</nav>
+<br><br><br>
+
+<!-- MAIN LAYOUT -->
+<div class="container main-layout">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>CRIMSON DESERT</h1>
+      <p>Compra ya Crimson Desert y consigue recompensas exclusivas.</p>
+      <span class="price">249 PEN</span>
+      <br>
+      <button class="btn btn-light mt-2">Comprar ahora</button>
+    </div>
+  </section>
+
+  <!-- SIDEBAR -->
+ <aside class="sidebar">
+
+  <div class="game active">
+    <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db" alt="">
+    <span>Crimson Desert</span>
+  </div>
+
+  <div class="game">
+    <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d1" alt="">
+    <span>Fortnite</span>
+  </div>
+
+  <div class="game">
+    <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6" alt="">
+    <span>EA SPORTS FC 26</span>
+  </div>
+
+  <div class="game">
+    <img src="https://images.unsplash.com/photo-1580128637393-4e8e3f0c55e6" alt="">
+    <span>Resident Evil</span>
+  </div>
+
+</aside>
+</div>
+
+<br><br><br>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
